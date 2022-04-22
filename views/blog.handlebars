@@ -2,7 +2,20 @@
   <h2>{{name}}</h2>
   <p>{{description}}</p>
   <p>Created by {{user.name}} on {{format_date createdAt}}</p>
-  {{#each blog.comment as |comment|}}
-  {{> comments}}
-  {{/each}}  
+  
+{{#if loggedIn}}
+<form class="comment-form">
+  <div>
+    <textarea name="comment-body"></textarea>
+  </div>
+  <div>
+    <button type="submit">add comment</button>
+  </div>
+</form>
+{{/if}}
+
+{{#each blog.comment as |comment|}}
+{{> comments}}
+{{/each}}
+
 </div>
