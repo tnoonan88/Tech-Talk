@@ -1,6 +1,8 @@
 # Tech Talk
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![Homepage](assets\screenshot.jpg)
+
 ## Description:
 Tech Talk is a CMS-style blog site similar to a Wordpress site, where develops can publish their blog posts and comment on other developers' posts as well.
 
@@ -20,7 +22,7 @@ Clone the repository, install the database via MySQL, seed the database and star
 Run the project on your local host. Alternatively, follow the link below for the Heroku deployment.
 
 ## Heroku:
-[Tech Talk](placeholder.url)
+[Tech Talk](https://fierce-shelf-24578.herokuapp.com/)
 
 ## How to Contribute:
 Please reach out to me via Github or email to contribute.
